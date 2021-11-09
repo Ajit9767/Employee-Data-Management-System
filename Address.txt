@@ -1,0 +1,30 @@
+package com.TCS.1km;
+
+public class Adress {
+
+        private String adressLine1;
+        private String adressLine2;
+
+        public Adress() {
+                System.out.println("From the constructer of Adress class\n");
+        }
+
+        public String getAdressLine1() {
+                return adressLine1;
+        }
+
+        public void setAdressLine1(String adressLine1) {
+                System.out.println("From: Setter of Adress Line1\n");
+                this.adressLine1 = adressLine1;
+        }
+        
+        public String getAdressLine2() {
+                return adressLine2;
+        }
+        
+        public void setAdressLine2(String adressLine2) {
+                System.out.println("From: Setter of Adress Line2\n");
+                this.adressLine2 = adressLine2;
+        }
+
+}
